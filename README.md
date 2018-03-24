@@ -1,6 +1,11 @@
 # tujiCrawer
 通用的图集抓取程序，采用配置模板对大部分站点进行图集抓取。
 
+配置程序在conf中按照现有格式进行配置
+clientSource.py 和 clientPage.py 为两个主要的程序
+clientSource.py 用来发现链接
+clientPage.py 用来抓取具体页面的图片
+
 数据库表结构
  CREATE TABLE `tbl_content` (
   `urlSign` char(32) NOT NULL DEFAULT '0' COMMENT '来源url的sign',
