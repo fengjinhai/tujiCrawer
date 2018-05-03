@@ -7,9 +7,9 @@
 
 ### 数据库表结构
 > CREATE TABLE `tbl_content` (<br>
->  `urlSign` char(32) NOT NULL DEFAULT '0' COMMENT '来源url的sign',<br>
->  `title` varchar(256) NOT NULL DEFAULT '' COMMENT '标题',<br>
->  `text` text NOT NULL COMMENT 'text',<br>
+>>  `urlSign` char(32) NOT NULL DEFAULT '0' COMMENT '来源url的sign',<br>
+>>  `title` varchar(256) NOT NULL DEFAULT '' COMMENT '标题',<br>
+> > `text` text NOT NULL COMMENT 'text',<br>
 >  `images` text NOT NULL COMMENT '图片json',<br>
 >  `tags` varchar(1024) NOT NULL DEFAULT '' COMMENT '内容 tag',<br>
 >  `url` varchar(1024) NOT NULL DEFAULT '' COMMENT '新增URL',<br>
